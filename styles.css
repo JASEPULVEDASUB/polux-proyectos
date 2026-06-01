@@ -859,6 +859,13 @@ h3 {
 }
 
 @media (max-width: 680px) {
+  .section,
+  .ito-section,
+  .contact-section {
+    padding-bottom: 58px;
+    padding-top: 58px;
+  }
+
   .site-header nav a {
     padding-left: 0;
     padding-right: 10px;
@@ -904,6 +911,13 @@ h3 {
   .ito-media,
   .experience-media {
     min-height: 300px;
+  }
+
+  .experience-list article,
+  .what-grid article,
+  .principle-card,
+  .advantages-grid article {
+    min-height: auto;
   }
 
   .copyright {
