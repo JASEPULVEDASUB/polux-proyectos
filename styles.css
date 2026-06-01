@@ -578,12 +578,24 @@ h3 {
   margin-top: 28px;
 }
 
-.experience-list span {
+.experience-list article {
   background: #fff;
   border-left: 4px solid var(--cyan);
   color: var(--dark);
-  font-weight: 800;
-  padding: 16px;
+  min-height: 168px;
+  padding: 20px;
+}
+
+.experience-list h3 {
+  font-size: 1.02rem;
+  margin-bottom: 12px;
+}
+
+.experience-list p {
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.56;
+  margin: 0;
 }
 
 .method-line {
