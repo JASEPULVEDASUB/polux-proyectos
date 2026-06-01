@@ -143,10 +143,20 @@ p {
 
 h1 {
   color: #fff;
-  font-size: clamp(3rem, 7vw, 6.35rem);
-  line-height: 0.99;
-  margin-bottom: 26px;
+  font-size: clamp(4.2rem, 13vw, 10.5rem);
+  letter-spacing: 0;
+  line-height: 0.82;
+  margin-bottom: 28px;
   max-width: 960px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: clamp(1.55rem, 3.1vw, 3rem);
+  font-weight: 800;
+  line-height: 1.08;
+  margin-bottom: 22px;
+  max-width: 860px;
 }
 
 h2 {
@@ -163,7 +173,7 @@ h3 {
 
 .lead {
   color: #edf3f8;
-  font-size: clamp(1.18rem, 2vw, 1.55rem);
+  font-size: clamp(1.08rem, 1.8vw, 1.35rem);
   line-height: 1.62;
   max-width: 720px;
 }
