@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="POLUX entrega servicios de ingenieria, gestion de proyectos, PMO e inspeccion tecnica de obras para energia, mineria, industria e infraestructura."
+      content="POLUX entrega ingenieria, gestion de proyectos, PMO e inspeccion tecnica de obras para infraestructura, energia, industria y proyectos tecnologicos."
     />
-    <title>POLUX | Ingenier&iacute;a, Proyectos e ITO</title>
+    <meta property="og:title" content="POLUX | Ingenier&iacute;a, Proyectos e ITO" />
+    <meta property="og:description" content="Consultora de ingenieria, PMO e ITO para infraestructura, energia e industria." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polux-proyectos.vercel.app/" />
+    <meta property="og:image" content="https://images.pexels.com/photos/27151841/pexels-photo-27151841.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+    <link rel="canonical" href="https://polux-proyectos.vercel.app/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>POLUX | Consultora de Ingenier&iacute;a, PMO e ITO</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -19,8 +27,9 @@
       <nav aria-label="Navegacion principal">
         <a href="#inicio">Inicio</a>
         <a href="#quienes-somos">Qui&eacute;nes Somos</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#ito">ITO</a>
+        <a href="ingenieria.html">Ingenier&iacute;a</a>
+        <a href="gestion-proyectos.html">PMO</a>
+        <a href="ito.html">ITO</a>
         <a href="#metodologia">Metodolog&iacute;a</a>
         <a href="#contacto">Contacto</a>
       </nav>
@@ -45,7 +54,7 @@
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#contacto">Solicitar contacto</a>
-            <a class="button secondary" href="#servicios">Ver servicios</a>
+            <a class="button secondary" href="brochure-polux.pdf" download>Descargar brochure</a>
           </div>
         </div>
         <aside class="hero-panel" aria-label="Resumen corporativo POLUX">
@@ -68,14 +77,17 @@
         <article>
           <span>Ingenier&iacute;a</span>
           <p>Desarrollo t&eacute;cnico, especificaciones, memorias y soluciones por especialidad.</p>
+          <a href="ingenieria.html">Ver especialidad</a>
         </article>
         <article>
           <span>PMO</span>
           <p>Planificaci&oacute;n, control de costos, gesti&oacute;n contractual y trazabilidad documental.</p>
+          <a href="gestion-proyectos.html">Ver especialidad</a>
         </article>
         <article>
           <span>ITO</span>
           <p>Supervisi&oacute;n en terreno, QA/QC, protocolos, recepciones y reportabilidad ejecutiva.</p>
+          <a href="ito.html">Ver especialidad</a>
         </article>
       </section>
 
@@ -94,6 +106,26 @@
             Nuestro enfoque combina criterio t&eacute;cnico, coordinaci&oacute;n en terreno, control documental
             y seguimiento de compromisos para apoyar la ejecuci&oacute;n ordenada de proyectos con altos
             requerimientos de calidad, seguridad y trazabilidad.
+          </p>
+        </div>
+      </section>
+
+      <section class="section leadership-section" aria-label="Direccion de la empresa">
+        <div class="section-heading">
+          <p class="eyebrow">Direcci&oacute;n t&eacute;cnica</p>
+          <h2>Direcci&oacute;n con enfoque en control, coordinaci&oacute;n y ejecuci&oacute;n responsable.</h2>
+        </div>
+        <div class="leadership-card">
+          <div>
+            <span>Perfil profesional</span>
+            <h3>Direcci&oacute;n de POLUX</h3>
+          </div>
+          <p>
+            La direcci&oacute;n de la empresa integra experiencia en administraci&oacute;n de contratos,
+            coordinaci&oacute;n de especialidades, supervisi&oacute;n en terreno, gesti&oacute;n documental y
+            control de cumplimiento t&eacute;cnico. Su foco est&aacute; en entregar informaci&oacute;n clara al
+            mandante, anticipar desviaciones y mantener trazabilidad durante el desarrollo del
+            proyecto.
           </p>
         </div>
       </section>
@@ -170,6 +202,7 @@
               <li>Memorias de c&aacute;lculo</li>
               <li>Revisi&oacute;n de antecedentes t&eacute;cnicos</li>
             </ul>
+            <a class="text-link" href="ingenieria.html">Detalle de Ingenier&iacute;a</a>
           </article>
           <article class="service-group">
             <div>
@@ -182,6 +215,7 @@
               <li>Control de costos</li>
               <li>Gesti&oacute;n contractual</li>
             </ul>
+            <a class="text-link" href="gestion-proyectos.html">Detalle de PMO</a>
           </article>
           <article class="service-group">
             <div>
@@ -195,6 +229,7 @@
               <li>Protocolos</li>
               <li>Recepciones</li>
             </ul>
+            <a class="text-link" href="ito.html">Detalle de ITO</a>
           </article>
           <article class="service-group">
             <div>
@@ -237,6 +272,7 @@
           <img
             src="https://images.pexels.com/photos/30762642/pexels-photo-30762642.jpeg?auto=compress&cs=tinysrgb&w=1300"
             alt="Infraestructura electrica y subestacion"
+            loading="lazy"
           />
         </div>
       </section>
@@ -261,6 +297,7 @@
           <img
             src="https://images.pexels.com/photos/36296037/pexels-photo-36296037.jpeg?auto=compress&cs=tinysrgb&w=1300"
             alt="Infraestructura industrial y equipos en terreno"
+            loading="lazy"
           />
         </div>
         <div class="experience-copy">
@@ -322,6 +359,30 @@
           <article><strong>03</strong><span>Planificaci&oacute;n</span></article>
           <article><strong>04</strong><span>Supervisi&oacute;n y Control</span></article>
           <article><strong>05</strong><span>Cierre y Entrega</span></article>
+        </div>
+      </section>
+
+      <section class="section evidence-section">
+        <div class="section-heading">
+          <p class="eyebrow">Infraestructura y terreno</p>
+          <h2>Experiencia asociada a proyectos industriales, energ&eacute;ticos y tecnol&oacute;gicos.</h2>
+        </div>
+        <div class="evidence-grid">
+          <article>
+            <img src="https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Parque eolico e infraestructura energetica" loading="lazy" />
+            <h3>Generaci&oacute;n y energ&iacute;a</h3>
+            <p>Apoyo en control de obra, montaje, trazabilidad documental y coordinaci&oacute;n de especialidades.</p>
+          </article>
+          <article>
+            <img src="https://images.pexels.com/photos/30762642/pexels-photo-30762642.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Subestacion electrica" loading="lazy" />
+            <h3>Subestaciones e instalaciones</h3>
+            <p>Revisi&oacute;n t&eacute;cnica, protocolos, recepciones, QA/QC y seguimiento de observaciones.</p>
+          </article>
+          <article>
+            <img src="https://images.pexels.com/photos/36296037/pexels-photo-36296037.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Infraestructura industrial en terreno" loading="lazy" />
+            <h3>Industria e infraestructura</h3>
+            <p>Supervisi&oacute;n en terreno, gesti&oacute;n de interferencias y control de cumplimiento contractual.</p>
+          </article>
         </div>
       </section>
 

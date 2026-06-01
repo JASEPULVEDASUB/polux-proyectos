@@ -1,0 +1,16 @@
+{
+  "name": "POLUX",
+  "short_name": "POLUX",
+  "description": "Ingenieria, gestion de proyectos e inspeccion tecnica de obras.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111820",
+  "theme_color": "#111820",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
