@@ -313,6 +313,7 @@ h3 {
   max-width: 930px;
 }
 
+.what-section,
 .principles-section,
 .services-section,
 .method-section {
@@ -320,6 +321,7 @@ h3 {
 }
 
 .principles-grid,
+.what-grid,
 .service-groups,
 .sector-grid,
 .experience-list,
@@ -330,6 +332,31 @@ h3 {
 
 .principles-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.what-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.what-grid article {
+  background: #fff;
+  border: 1px solid var(--line);
+  min-height: 250px;
+  padding: 30px;
+}
+
+.what-grid span {
+  color: var(--orange);
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+
+.what-grid p {
+  color: var(--muted);
+  line-height: 1.62;
+  margin-bottom: 0;
 }
 
 .principle-card {
@@ -457,6 +484,12 @@ h3 {
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: #fff;
   padding: 10px 12px;
+}
+
+.ito-list span:nth-child(3),
+.ito-list span:nth-child(5),
+.ito-list span:nth-child(7) {
+  border-color: rgba(53, 182, 200, 0.5);
 }
 
 .ito-media {
@@ -689,7 +722,7 @@ h3 {
 .footer-grid {
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .footer-grid strong {
@@ -765,6 +798,7 @@ h3 {
   }
 
   .principles-grid,
+  .what-grid,
   .service-groups,
   .sector-grid,
   .advantages-grid {
@@ -835,6 +869,7 @@ h3 {
 
   .principles-grid,
   .principle-card.featured,
+  .what-grid,
   .service-groups,
   .sector-grid,
   .experience-list,
