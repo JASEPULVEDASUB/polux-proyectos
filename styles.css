@@ -330,36 +330,10 @@ h3 {
 }
 
 .what-section,
-.leadership-section,
 .principles-section,
 .services-section,
 .method-section {
   background: var(--soft);
-}
-
-.leadership-card {
-  background: #fff;
-  border: 1px solid var(--line);
-  display: grid;
-  gap: 28px;
-  grid-template-columns: minmax(220px, 0.45fr) minmax(0, 1fr);
-  padding: clamp(26px, 4vw, 42px);
-}
-
-.leadership-card span {
-  color: var(--orange);
-  display: block;
-  font-size: 0.78rem;
-  font-weight: 800;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-}
-
-.leadership-card p {
-  color: var(--muted);
-  font-size: 1.04rem;
-  line-height: 1.72;
-  margin: 0;
 }
 
 .principles-grid,
@@ -938,7 +912,6 @@ h3 {
   .contact-section,
   .site-footer,
   .capability-strip,
-  .leadership-card,
   .service-page-hero {
     grid-template-columns: 1fr;
   }
