@@ -5,20 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="POLUX entrega ingenieria, gestion de proyectos, PMO e inspeccion tecnica de obras para infraestructura, energia, industria y proyectos tecnologicos."
+      content="POLUX es una empresa de ingenieria, PMO e inspeccion tecnica de obras para infraestructura, energia, industria, obras civiles y sistemas tecnologicos."
     />
-    <meta property="og:title" content="POLUX | Ingenier&iacute;a, Proyectos e ITO" />
-    <meta property="og:description" content="Consultora de ingenieria, PMO e ITO para infraestructura, energia e industria." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="POLUX | Ingenier&iacute;a, PMO e Inspecci&oacute;n T&eacute;cnica de Obras" />
+    <meta property="og:description" content="Empresa de ingenieria, gestion de proyectos e ITO para infraestructura, energia, industria y obras civiles." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://polux-proyectos.vercel.app/" />
     <meta property="og:image" content="https://images.pexels.com/photos/27151841/pexels-photo-27151841.jpeg?auto=compress&cs=tinysrgb&w=1200" />
     <meta property="og:locale" content="es_CL" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="POLUX | Ingenier&iacute;a, PMO e ITO" />
+    <meta name="twitter:description" content="Ingenieria, gestion de proyectos e inspeccion tecnica de obras para infraestructura, energia e industria." />
+    <meta name="twitter:image" content="https://images.pexels.com/photos/27151841/pexels-photo-27151841.jpeg?auto=compress&cs=tinysrgb&w=1200" />
     <link rel="canonical" href="https://polux-proyectos.vercel.app/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
-    <title>POLUX | Consultora de Ingenier&iacute;a, PMO e ITO</title>
+    <title>POLUX | Ingenier&iacute;a, PMO e Inspecci&oacute;n T&eacute;cnica de Obras</title>
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://polux-proyectos.vercel.app/#organization",
+            "name": "POLUX",
+            "url": "https://polux-proyectos.vercel.app/",
+            "logo": "https://polux-proyectos.vercel.app/favicon.svg",
+            "description": "Empresa de ingenieria, gestion de proyectos e inspeccion tecnica de obras.",
+            "areaServed": "Chile",
+            "knowsAbout": [
+              "Ingenieria",
+              "Gestion de proyectos",
+              "PMO",
+              "Inspeccion tecnica de obras",
+              "Infraestructura industrial",
+              "Subestaciones electricas"
+            ]
+          },
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://polux-proyectos.vercel.app/#localbusiness",
+            "name": "POLUX",
+            "url": "https://polux-proyectos.vercel.app/",
+            "image": "https://images.pexels.com/photos/27151841/pexels-photo-27151841.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Concepcion",
+              "addressCountry": "CL"
+            },
+            "email": "contacto@polux.cl",
+            "description": "Servicios de ingenieria, PMO e inspeccion tecnica de obras para proyectos industriales, energia e infraestructura."
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -58,6 +100,7 @@
           <div class="hero-actions">
             <a class="button primary" href="#contacto">Solicitar contacto</a>
             <a class="button secondary" href="brochure-polux.pdf" download>Descargar presentaci&oacute;n corporativa</a>
+            <a class="button tertiary" href="#contacto">Solicitar reuni&oacute;n</a>
           </div>
         </div>
         <aside class="hero-panel" aria-label="Resumen corporativo POLUX">
@@ -392,6 +435,10 @@
             Cu&eacute;ntanos sobre tu proyecto y coordinaremos una reuni&oacute;n para evaluar sus
             requerimientos t&eacute;cnicos.
           </p>
+          <div class="contact-actions">
+            <a href="brochure-polux.pdf" download>Descargar brochure</a>
+            <a href="#contacto">Evaluar proyecto</a>
+          </div>
         </div>
         <form class="contact-form" action="mailto:contacto@polux.cl" method="post" enctype="text/plain">
           <label>

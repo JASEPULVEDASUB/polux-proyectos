@@ -203,10 +203,15 @@ h3 {
   color: #fff;
 }
 
-.button.secondary {
+.button.secondary,
+.button.tertiary {
   background: rgba(255, 255, 255, 0.12);
   border-color: rgba(255, 255, 255, 0.45);
   color: #fff;
+}
+
+.button.tertiary {
+  background: transparent;
 }
 
 .button:hover,
@@ -790,6 +795,20 @@ h3 {
   line-height: 1.64;
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.contact-actions a {
+  border: 1px solid var(--line);
+  color: var(--blue);
+  font-weight: 800;
+  padding: 12px 14px;
+}
+
 .contact-form {
   background: #fff;
   border: 1px solid var(--line);
@@ -992,8 +1011,13 @@ h3 {
   }
 
   .hero-actions,
-  .button {
+  .button,
+  .contact-actions a {
     width: 100%;
+  }
+
+  .contact-actions {
+    gap: 10px;
   }
 
   h1 {
