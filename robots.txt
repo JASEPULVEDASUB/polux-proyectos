@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://polux-proyectos.vercel.app/sitemap.xml
+Sitemap: https://poluxingenieria.cl/sitemap.xml

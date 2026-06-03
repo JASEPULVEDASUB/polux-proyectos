@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://polux-proyectos.vercel.app/</loc>
+    <loc>https://poluxingenieria.cl/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://polux-proyectos.vercel.app/ingenieria.html</loc>
+    <loc>https://poluxingenieria.cl/ingenieria.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://polux-proyectos.vercel.app/gestion-proyectos.html</loc>
+    <loc>https://poluxingenieria.cl/gestion-proyectos.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://polux-proyectos.vercel.app/ito.html</loc>
+    <loc>https://poluxingenieria.cl/ito.html</loc>
     <priority>0.8</priority>
   </url>
 </urlset>
